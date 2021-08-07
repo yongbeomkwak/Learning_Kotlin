@@ -52,7 +52,7 @@ fun main() {
      var charValue:Char='a'
      var booleanValue:Boolean=true
      /*
-        5) 문자열
+        5) 문자열(String)
          " " (큰 따옴표) 사용
           """  """ 3개 사용 시 줄 바꿈 및 특수문자 까지 사용가능
       */

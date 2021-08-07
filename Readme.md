@@ -8,3 +8,7 @@
     타입 변환 과 배열 선언 및 사용 방법
 
 3. TypeInference&Function
+
+    단일표현함수 ,함수 문법,타입추론
+
+4. Conditional&Operator
