@@ -28,7 +28,7 @@ open class Animal(var name:String,var age:Int,var type:String)
 }
 
 //sub class 사용 시 , var를 사용하지 않는다,입력받아 넘겨준다(부모로)
-// class 자식클래스명 :부모 
+// class 자식클래스명 :부모()[반드시 () 붙여야됨 생성자형태로]
 class Dog(name:String,age:Int): Animal(name,age,"Dog"){
 
     fun bark()

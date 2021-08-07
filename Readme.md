@@ -32,3 +32,7 @@
     constructor.kt: init 및 constructor(보조 생성자) 설명
 
     inheritance.kt: 상속관련 규칙 설명
+
+    override_interface.kt: override,abstract class,interface 설명
+---
+8.  Package&import
