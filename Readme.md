@@ -12,3 +12,9 @@
     단일표현함수 ,함수 문법,타입추론
 
 4. Conditional&Operator
+
+    조건문(if,when) 및 연산자(is..Comparison Operator)
+
+5. roop
+
+    while,do while, for( in ,step,downTo)
