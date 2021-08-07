@@ -30,3 +30,5 @@
     beginner.kt:클래스 기본 구조 설명
     
     constructor.kt: init 및 constructor(보조 생성자) 설명
+
+    inheritance.kt: 상속관련 규칙 설명
