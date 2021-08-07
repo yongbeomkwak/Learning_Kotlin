@@ -15,6 +15,12 @@
 
     조건문(if,when) 및 연산자(is..Comparison Operator)
 
-5. roop
+5. loop
 
     while,do while, for( in ,step,downTo)
+
+6. FlowControl&LogicOperator
+
+    문자열안에 변수 사용시 $ 사용  "a:$ a"
+
+    @Labeling,continue,break,
