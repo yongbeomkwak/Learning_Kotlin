@@ -34,6 +34,8 @@
     inheritance.kt: 상속관련 규칙 설명
 
     override_interface.kt: override,abstract class,interface 설명
+
+    polymorphysm.kt:다형성(up-Casting,down-Casting,as와 is 연산자)
 ---
 8.  Package&import
     
@@ -58,7 +60,10 @@
      구조:apply,run ||   also,let || with
 ---
 12. Object
-13. 
+
+    object.kt:object 및 companion object설명
+    observerPattern.kt: 옵저버 패턴 및 익명객체 설명
+
     
     
     
