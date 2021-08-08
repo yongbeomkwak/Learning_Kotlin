@@ -38,3 +38,9 @@
 8.  Package&import
     
     패캐지 선언(package) 및 외부 패키지 불러오기(import)
+---
+9. Score&AccessModifier
+
+    Scope.kt:스코프 규칙
+
+    AcessModifier.kt:접근 제한자:public,internal,private,protected
