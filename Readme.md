@@ -44,3 +44,9 @@
     Scope.kt:스코프 규칙
 
     AcessModifier.kt:접근 제한자:public,internal,private,protected
+---
+10. higherOrderFunction&LambdaFunction
+
+    higher.kt:고차함수 설명
+
+    lambda.kt:람다 함수 설명
