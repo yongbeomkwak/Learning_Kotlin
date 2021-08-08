@@ -51,5 +51,15 @@
 
     lambda.kt:람다 함수 설명
 ---
-1.  ScopeFunction
+11.  ScopeFunction
+
+     역할:apply,also || run,let,with
+
+     구조:apply,run ||   also,let || with
+---
+12. Object
+13. 
+    
+    
+    
 

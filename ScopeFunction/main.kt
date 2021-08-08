@@ -34,7 +34,7 @@ fun main(args: Array<String>) {
         apply 안에서 참조연산자 필요없음
         멤버 접근 시  그냥 멤버이름으로 접근
     */
-    var price=5000
+    var price=5000 //also 와 let의 특징을 알아보기 위해 , Book의 멤버변수인 price와 같은 이름으로
     var a=Book("코틀린",10000).apply {
         println(price) //5000 ,외부 변수가 우선 시
         name="[초특가]"+name
