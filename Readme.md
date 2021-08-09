@@ -101,6 +101,10 @@
     DataClass.kt:데이터 클래스 설명
 
     EnumClass.kt:열거형 클래스 설명
-    
+---
+20. Advanced Value skill
 
+    var,val,const val
+    
+    lateinit,lazy keyword 
 
