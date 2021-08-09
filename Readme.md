@@ -107,4 +107,9 @@
     var,val,const val
     
     lateinit,lazy keyword 
+---
+21. BitOperation
 
+    비트의 개념과 비트 연산자 설명
+    
+    Int.toString(2):2진수로 표현
