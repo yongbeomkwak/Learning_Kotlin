@@ -91,6 +91,12 @@
 18. NestedClass
 
     중첩클래스와 inner 클래스 차이 
+---
+19. DataClass&EnumClass
+
+    DataClass.kt:데이터 클래스 설명
+
+    EnumClass.kt:열거형 클래스 설명
     
 
 
