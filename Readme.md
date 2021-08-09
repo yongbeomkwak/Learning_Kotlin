@@ -63,6 +63,8 @@
 
     object.kt:object 및 companion object설명
     observerPattern.kt: 옵저버 패턴 및 익명객체 설명
+---
+13. Generic
 
     
     
