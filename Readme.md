@@ -86,6 +86,11 @@
     
     argument.kt:다양한 argument와 overloading,vararg keyword 설명
     infix.kt: infix함수 설명
+
+---
+18. NestedClass
+
+    중첩클래스와 inner 클래스 차이 
     
 
 

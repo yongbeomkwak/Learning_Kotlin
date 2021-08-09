@@ -9,7 +9,7 @@
 infix fun Int.multiply(x:Int):Int =this * x //여기서 this는 fun 뒤에 있는 Int 타입의 값을 의미
 fun main(args: Array<String>) {
     
-    println(6 multiply(4))
+    println(6 multiply(4)) //this가 6임
     println(6.multiply(4))
 
 }
