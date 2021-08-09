@@ -76,5 +76,10 @@
 15. String
 
     문자열 관련 함수 
+---
+16. NullCheck
+    
+    nullCheck.kt:보통 Scope 함수를 와 같이 사용하여 null Check를 함
+    Equal.kt:객체와 내용의 동일성 판단
 
 
