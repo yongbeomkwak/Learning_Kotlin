@@ -27,5 +27,5 @@ fun main(args: Array<String>) {
     println(numbers.getOrElse(5) { 50 })    
 
     val name=listOf("A","B","C","D","E")
-    println(name zip numbers) // name의 리스트 개수를 기준으로 2 collection을 합쳐준다,만약 
+    println(name zip numbers) // 둘 중 리스트 개수가 작은 리스트를  기준으로 2 collection을 합쳐준다, 나머지들은 버려진다
 }
