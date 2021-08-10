@@ -45,5 +45,6 @@ fun main(args: Array<String>) {
     //b.washDish() 사용불가 
     var c = b as Cola
     c.washDish()
+    //b as Cola 이후 부터 완전히 Cola 이므로 사용가능
     b.washDish()
 }

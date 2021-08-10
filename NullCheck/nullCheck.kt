@@ -9,4 +9,5 @@ fun main(args: Array<String>) {
     println(a?.toUpperCase()) //null
     println(a?:"default".toUpperCase())// DEFAULT
     println(a!!.toUpperCase()) //Null PointerException
+    
 }

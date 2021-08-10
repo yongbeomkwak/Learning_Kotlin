@@ -3,6 +3,8 @@ import  com.youtube.Dimo.base
 /*
     코드 파일을 패키지에 넣는 방법(패키지 선언)
     package + 패키지명(보통 도메인 거꾸로 + 기업명,com.)
+    패키지 언급 안할 시 default 패키지
+    
     
     특징
         폴더 구조와 패키지명을 일치 시키지 않아도됨

@@ -3,8 +3,8 @@
     1/apply:안스턴스를 생성 후, 변수에 담기전에 초기화 과정을 할 때 쓰임,참조연산자 사용 x
     2.run: apply와 같이 참조 연사자 사용x,안스턴스를 만든 후,멤버 변수를 반환 받아 변수에 저장할 때 사용
     3.with:run과 같음 단지 인스턴스를 참조연사자로 접근안하고(a.with(x)) 파라미터로  전달 with(a)
-    4.also
-    5. let
+    4.also:it란 keyword를 통해 apply역할
+    5.let:it란 keyword를 통해 run역할
 
     처리가 끝나면 인스턴스 반환
     apply,also

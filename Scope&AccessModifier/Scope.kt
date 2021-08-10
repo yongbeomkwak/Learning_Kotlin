@@ -19,8 +19,8 @@ fun main(args: Array<String>) {
 
     //b-4
     val a="함수 스코프"
-    println(a)
-    A().print()
+    println(a) //함수 스코프
+    A().print() //클래스 스코프 
 }
 
 /*
