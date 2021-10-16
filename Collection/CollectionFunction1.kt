@@ -5,6 +5,11 @@ fun main(args: Array<String>) {
     //컬렉션 함수 안에서는 it keyword로 요소들에 접근한다
     //forEach: 컬렉션 전용 반복문,
 
+    for ((idx,value) in list.withIndex()) {
+        println("index:${idx},value:${value}")
+    }
+
+    println()
     list.forEach{print(it+" ")}
     println()
 
