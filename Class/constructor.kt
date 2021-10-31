@@ -29,3 +29,47 @@ class Person(var name:String,var age:Int)
 
     }
 }
+
+class D(val name: String) {
+    //이렇게 var 또는 val이 붙어 있으면 선언과 초기화가 동시에
+    var age: Int = 20
+    var height: Int = 500
+
+//    컴파일 에러!
+//    constructor(name: String, age: Int) {
+//        this.age = age
+//    }
+
+    init{
+        println("init")
+    }
+    constructor(name: String, age: Int) : this(name) {
+        this.age = age
+        println("22")
+        //init -> constructor(name,age) 순서
+    }
+
+    constructor(name: String, age: Int, height: Int) : this(name, age) {
+        this.height = height
+        println("3")
+        // init -> constructor(name,age) -> constructor(name,age,height) 순서
+    }
+}
+
+fun main(args: Array<String>) {
+    
+  var a:D=D("33")
+  var b:D=D("33",22)
+  var c:D=D("33",22,11)
+ /*
+  output
+  init
+  
+  init
+  22
+
+	init
+	22
+	3
+  * */  
+}
