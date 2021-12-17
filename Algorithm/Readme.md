@@ -37,5 +37,9 @@ Queue에서 일반적으로 사용될 function으로, Queue의 head에 존재하
 
 poll()과 동일한 기능을 수행하지만, Queue가 비어있는 경우 null을 return하지 않는 차이점이 있다. return 타입이 E로 되어있는 걸 보니 Queue가 비어있을 때 remove를 수행하면 null 데이터로 인해  Kotlin 에러가 발생할듯?
 
+---
+#   PriorityQueue
 
+  - 함수는 위 queue와 같음
 
+  - 중요한 점은 data class 사용 시 Comparable<T>를 상속 받아 compareTo 함수를 override를 해줘야함
