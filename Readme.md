@@ -68,7 +68,7 @@
 
     클래스 제네릭,함수 제네릭 사용방법
 ---
-14. Collection
+14. [Collection](https://velog.io/@hwi_chance/Kotlin-2%EC%9E%A5.-%EC%BD%94%ED%8B%80%EB%A6%B0-%EB%AC%B8%EB%B2%95-%EB%B0%B0%EC%97%B4-%EC%BB%AC%EB%A0%89%EC%85%98-%EB%B0%98%EB%B3%B5%EB%AC%B8)
 
     a)List.kt:콜렉션 리스트 관련 설명
     
