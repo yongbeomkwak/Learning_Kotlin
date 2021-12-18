@@ -43,3 +43,19 @@ poll()과 동일한 기능을 수행하지만, Queue가 비어있는 경우 null
   - 함수는 위 queue와 같음
 
   - 중요한 점은 data class 사용 시 Comparable<T>를 상속 받아 compareTo 함수를 override를 해줘야함
+
+
+# [Set](https://lcw126.tistory.com/341)
+- HashSet이 속도가 빠른듯
+
+
+# [Hash Map](https://kkh0977.tistory.com/648)
+- 1. HashMap : 코틀린에서 key , value 형태로 데이터를 저장할 수 있습니다
+-	2. put(key,value) : 해쉬맵에서 데이터를 추가할때 사용합니다
+-	3. containsKey(key) : 해쉬맵에서 특정 key 값이 포함된지 확인합니다
+-	4. get(key) : 해쉬맵에서 특정 key 값 데이터를 얻어옵니다(null check)
+-	5. for : 반복문을 수행하면서 해쉬맵에 들어있는 데이터를 순차적으로 출력합니다
+-	6. remove(key) : 해쉬맵에서 특정 key 값을 삭제합니다
+-	7. replace(key,value) : 해쉬맵에서 특정 key 값 데이터를 변경합니다(만약 map에 있는 데이터를 이용시 특히 Int .plus(1) or .plus(-1) 로 해줌 )
+-	8. clear : 해쉬맵을 전체 초기화합니다
+
