@@ -20,7 +20,7 @@ import kotlinx.coroutines.*
     -launch:반환 값이 없는 Job객체
     -async:반환 값이 있는 Deffered 객체
     -둘다 모두 람다 함수 형식(async는 마지막 값이 리턴값)
-    -코루틴을 생서하는 함수
+    -코루틴을 생하는 함수
 */
 
 /*
