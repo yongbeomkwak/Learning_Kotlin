@@ -53,7 +53,7 @@
 
     lambda.kt:람다 함수 설명
 ---
-11.  ScopeFunction
+11.  [ScopeFunction](https://haero.tistory.com/21)
 
      역할:apply,also || run,let,with
 
