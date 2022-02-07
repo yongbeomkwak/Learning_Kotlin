@@ -126,3 +126,17 @@
     
     각 종 Collection 및 입출력을 알고리즘에 최적화 
     -   import java.util.*
+
+    -   [각종 유용한 메소드 정리](https://aonee.tistory.com/28)
+    -   [람다함수](https://0391kjy.tistory.com/38)
+
+24. 람다함수
+
+-   1. withIndex():(Index,value)를 갖는 List 형태로 리턴
+-   2. xx.groubBy{key} : key값을 key로하고 xx를 value로 갖는 LinkedHashMap 리턴
+-   3.  .values -> HashMap에서 value들만 가져옴
+-   4.  .sortedByDescending{조건} :해당 조건을 기준으로 내림차순
+-   5.  sumBy{리스트 같은 컬렉션}:  모든원소를 더한 값
+-   6.  .map:각 원소를 원하는 형태로 변환하는 기능을 하며, 변환한 결과를 모아서 새 컬렉션을 만듭니다. ,원본의 결과는 바꾸지 않음
+-   7.  fold(초기값){tmp,v-> tmp와 v를 이용한 연산}:
+          tmp의 초기값을 지정하고 해당 연산을 모두 진행한 후 최종 tmp를 리턴
