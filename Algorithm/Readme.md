@@ -58,4 +58,14 @@ poll()과 동일한 기능을 수행하지만, Queue가 비어있는 경우 null
 -	6. remove(key) : 해쉬맵에서 특정 key 값을 삭제합니다
 -	7. replace(key,value) : 해쉬맵에서 특정 key 값 데이터를 변경합니다(만약 map에 있는 데이터를 이용시 특히 Int .plus(1) or .plus(-1) 로 해줌 )
 -	8. clear : 해쉬맵을 전체 초기화합니다
+- 9.  반복문 : 
+    - hash.forEach
+
+          hash.forEach{key,value ->
+          
+          }
+
+    - for문     
+            
+             for ((key,value) in hash){}
 
