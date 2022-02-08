@@ -69,3 +69,17 @@ poll()과 동일한 기능을 수행하지만, Queue가 비어있는 경우 null
             
              for ((key,value) in hash){}
 
+---
+# [Stack](https://notepad96.tistory.com/entry/Kotlin-12)
+
+- 1.  LIFO
+- 2.  val st=Stack< Type >()
+- 3.  Method
+  - a) st.push(n):위로 삽입
+  - b) st.peek():Top()값을 가르킴
+  - c) st.pop():Top() 원소를 반환하며 삭제
+  - d) st.size:Size 리턴
+  - e) st[n]:해당 원소 리턴(밑에서 부터 0) ,st[st.size-1]:Top원소
+  - f) st.add(index,n): 사용 권한x,스택의 기능이 깨지긴 함 , 해당 index에 삽입 ,index 생략시 0번째(밑에 넣음)
+  - g) st.search(n): n을 위에서부터 몇번째 있는지 ,만약 n이 없을 시 -1리턴
+  - h) st.isNotEmpty(), st.isEmpty()

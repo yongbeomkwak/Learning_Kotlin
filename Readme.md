@@ -137,6 +137,31 @@
 -   3.  .values -> HashMap에서 value들만 가져옴
 -   4.  .sortedByDescending{조건} :해당 조건을 기준으로 내림차순
 -   5.  sumBy{리스트 같은 컬렉션}:  모든원소를 더한 값
--   6.  .map:각 원소를 원하는 형태로 변환하는 기능을 하며, 변환한 결과를 모아서 새 컬렉션을 만듭니다. ,원본의 결과는 바꾸지 않음
+-   6.  .map:각 원소를 원하는 형태로 변환하는 기능을 하며, 변환한 결과를 모아서 *새 컬렉션을 만듭니다.* ,원본의 결과는 바꾸지 않음
 -   7.  fold(초기값){tmp,v-> tmp와 v를 이용한 연산}:
-          tmp의 초기값을 지정하고 해당 연산을 모두 진행한 후 최종 tmp를 리턴
+          tmp의 초기값을 지정하고 해당 연산을 모두 진행한 후 최종 **tmp를 리턴**
+
+-   8. zip() 함수는 두 컬랙션의 자료들을 조합하여 새로운 자료를 만들 때 사용합니다.
+          두 컬렉션 간 자료의 갯수가 달라도 되고 **더 적은 갯수**에 컬랙션쪽으로 따라 갑니다. 
+          Pair로 묶은 ArrayList반환
+    
+        ex) a.zip(b): a가 first,b가 second가 됨
+-   9.  [drop()&take()](https://kotlinworld.com/12)
+    ### Take
+    -   x.take(n): 앞에서 n 선택
+        -   ex)(0..10)..toList().take(3)
+        -   [0,1,2,3,4,5,6,7,8,9,10]:앞에서 3개 [0,1,2]
+    -   x.takeWhile{it조건식}
+        -   앞에서 it조건식이 false가 될 때 까지 모든 요소를 담아 List로 리턴
+    -   x.takeLast(n)
+        -   뒤에서 n개 가져옴
+    -   x.takeLastWhile{it조건식}
+        -   뒤에서 it조건식이 false가 될 때 까지 요소를 담아 List로 반환
+    ### Drop
+    -   x.drop(n):앞에서 n개를 제외하고 나머지 요소를 List로 리턴
+    -   x.dropWhile(it조건식)
+        -   it조건식이 false가 될 때까지 앞에 요소를 버린 후 처음 true가 된 이후 나머지 요소를 List로 리턴
+    -   x.dropLast(n)
+        -   뒤에서 n개를 제외하고 나머지를 List로 리턴
+    -   x.dropLastWhile(it조건식)
+        -   뒤에서 부터 it조건식이 false가 될때 까지 뒤에 요소를 버린 후 처음 true가 된 이후 나머지요소를 List로 리턴
