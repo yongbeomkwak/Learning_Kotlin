@@ -1,6 +1,6 @@
 # Sort
 
-##  1.  [sortedBy() & sortWith()](https://yuuj.tistory.com/89)
+##  1.  [sortedBy() & sortedWith()](https://yuuj.tistory.com/89)
 - a.  sorted:원본 리스트를 바꾸지 않고 소팅된 리스트를 리턴한다. 
 
 selector을 지정하면 소팅 기준을 정할 수 있다. 
@@ -11,9 +11,44 @@ selector을 지정하면 소팅 기준을 정할 수 있다.
 
 - b.sortedWith():역시 원본 리스트를 바꾸지 않고 소팅된 리스트를 리턴한다. 
 
-sortedBy()와 다른점은 comparator을 지정해서 다중 기준을 둘 수 있다는 점이다. 
-
+**sortedBy()와 다른점은 comparator을 지정해서 다중 기준을 둘 수 있다는 점이다.**
+    
     var sorted = planedit.sortedWith(compareBy({ it.first }, { it.second }))
+
+##  2.  [ListSort](https://codechacha.com/ko/kotlin-sorting-list/)
+- a. sort()와 sorted()차이:
+  - sorted(): Immutable List에서 사용 즉 원본 변경안하고 정렬된 것을 리턴 받아 사용
+  - sortedDescending(): Immutable List 내림차순 리턴
+  - sort(): Mutable List 에서 사용 즉 원본 변경 함
+  - sortDescending():Mutable List 내림차순
+
+- b. reserve()와 reserved()차이:
+  - reversed() : Immutable 리스트에서 사용합니다. 역순으로 변경된 리스트를 생성하고 리턴합니다.
+
+        val sorted = list.sorted().reversed()
+
+  - reverse() : Mutable 리스트에서 사용되며, 리스트 자신의 요소 순서를 반대로 변경합니다. 
+
+      
+        list2.sort().reverse()
+
+- c.  sortedWith(), sortWith()
+  
+  - sortWith()는 정렬 규칙인 Comparator를 변경합니다. 즉, Comparator를 변경하여 자신이 원하는 방식으로 리스트를 정렬할 수 있습니다.
+
+  - sortedWith() : Immutable list에서 사용
+
+  - sortWith() : Mutable list에서 사용
+
+- d.  sortedBy(), sortBy()
+  - 리스트의 요소가 1개의 데이터 타입으로 이루어지지 않고, 내부에 여러 객체를 갖고 있는 타입일 때, 어떤 객체를 비교하여 정렬할 지 결정할 때 사용합니다.
+
+  - sortedBy({it}) : Immutable list에서 사용
+  - sortedByDescending({it}):Immutable list에서 사용 (내림차순)
+    
+  - sortBy({it}) : Mutable list에서 사용
+  - sortByDescending({it}):Mutable list에서 사용(내림차순)
+ 
 
 
 #   [queue](https://choheeis.github.io/newblog//articles/2020-10/kotlinQueue)
