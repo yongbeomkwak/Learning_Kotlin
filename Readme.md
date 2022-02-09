@@ -141,7 +141,7 @@
         
         typealias P=Pair<Int,Int>
 
-1.  람다함수
+25.  람다함수
 
 -   1. withIndex():(Index,value)를 갖는 List 형태로 리턴
 -   2. xx.groubBy{key} : key값을 key로하고 xx를 value로 갖는 LinkedHashMap 리턴
@@ -177,3 +177,15 @@
         -   뒤에서 n개를 제외하고 나머지를 List로 리턴
     -   x.dropLastWhile(it조건식)
         -   뒤에서 부터 it조건식이 false가 될때 까지 뒤에 요소를 버린 후 처음 true가 된 이후 나머지요소를 List로 리턴
+-   10. .distinct():중복제거한 값 리턴 (원본 변경안됨)
+-   11. list.forEachIndexed:해당 리스트의 index와 함께 forEach 
+             
+             numbers.forEachIndexed { index, v ->
+             }
+-   12. str.removeRange(start,end):str에서 start부터 end-1까지 삭제한 것을 리턴 (원본 변경X)
+
+
+            fun String.removeRange(
+            startIndex: Int, 
+            endIndex: Int
+            ): String
