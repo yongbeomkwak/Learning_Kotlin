@@ -40,6 +40,19 @@ selector을 지정하면 소팅 기준을 정할 수 있다.
 
   - sortWith() : Mutable list에서 사용
 
+
+        tmp.sortWith(Comparator<String>{ a,b ->
+          
+            when{
+                //b가 앞 요소 a가 뒷 요소
+                //앞+뒤(b+a)가 크면 true 
+                //A.compareTo(B): A가 크면 +1, 같으면 0 A가 작으면 -1
+                a.length==b.length -> b.compareTo(a)
+                else -> (b+a).compareTo(a+b)
+            }
+            
+        })
+
 - d.  sortedBy(), sortBy()
   - 리스트의 요소가 1개의 데이터 타입으로 이루어지지 않고, 내부에 여러 객체를 갖고 있는 타입일 때, 어떤 객체를 비교하여 정렬할 지 결정할 때 사용합니다.
 
