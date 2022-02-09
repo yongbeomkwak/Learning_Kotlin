@@ -44,6 +44,7 @@ poll()과 동일한 기능을 수행하지만, Queue가 비어있는 경우 null
 
   - 중요한 점은 data class 사용 시 Comparable<T>를 상속 받아 compareTo 함수를 override를 해줘야함
 
+  - addAll(List):List의 모든 요소를 삽입한다
 
 # [Set](https://lcw126.tistory.com/341)
 - HashSet이 속도가 빠른듯
