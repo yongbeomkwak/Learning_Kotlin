@@ -1,3 +1,21 @@
+# Sort
+
+##  1.  [sortedBy() & sortWith()](https://yuuj.tistory.com/89)
+- a.  sorted:원본 리스트를 바꾸지 않고 소팅된 리스트를 리턴한다. 
+
+selector을 지정하면 소팅 기준을 정할 수 있다. 
+
+    var sorted = planedit.sortedBy{it.first}
+ 
+ 내림차순으로 정렬할땐 sortedByDescending()을 사용하면 된다. 
+
+- b.sortedWith():역시 원본 리스트를 바꾸지 않고 소팅된 리스트를 리턴한다. 
+
+sortedBy()와 다른점은 comparator을 지정해서 다중 기준을 둘 수 있다는 점이다. 
+
+    var sorted = planedit.sortedWith(compareBy({ it.first }, { it.second }))
+
+
 #   [queue](https://choheeis.github.io/newblog//articles/2020-10/kotlinQueue)
 
 ##  0.  import
@@ -44,7 +62,22 @@ poll()과 동일한 기능을 수행하지만, Queue가 비어있는 경우 null
 
   - 중요한 점은 data class 사용 시 Comparable<T>를 상속 받아 compareTo 함수를 override를 해줘야함
 
-  - addAll(List):List의 모든 요소를 삽입한다
+               val pq:PriorityQueue<Int> = PriorityQueue(compareBy{it}) //오름차순
+
+              val pq:PriorityQueue<Int> = PriorityQueue(compareBy{-it}) //내림차순
+        
+             val pq2:PriorityQueue<Int> = PriorityQueue((Comparator.reverseOrder())) //내림차순
+
+ 
+
+  - 삽입: 
+    - add(n) , offer(n)
+    -  addAll(List):List의 모든 요소를 삽입한다
+  - 삭제: 
+    - poll():top 삭제하며 값 반환 (없을 시 예외발생), remove():top 삭제(예외 발생 x)  or remove(n): 원소 n 삭제 
+  - 확인
+    - isNotEmpty(),isEmpty()
+    - size
 
 # [Set](https://lcw126.tistory.com/341)
 - HashSet이 속도가 빠른듯
