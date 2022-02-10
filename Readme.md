@@ -194,6 +194,12 @@
             list.count{
                 it>=1
             } //1일상인 요소
+-   14. .flatMap{it}
+    -   flatMap 함수는 람다를 모든 객체에 적용하고 얻어지는 여러 리스트를 하나의 리스트로 생성합니다.
+
+                val strings = listOf("abc", "de", "de")
+                strings.flatMap { it.toList() }.toSet()
+                [a, b, c, d, e] //중복제거 O
 
 -   26. [문자열함수](https://rain2002kr.tistory.com/92)
     -   a) str.split(delim): 
