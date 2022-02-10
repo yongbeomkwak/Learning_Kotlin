@@ -189,8 +189,13 @@
             startIndex: Int, 
             endIndex: Int
             ): String
+-   13. list.count{it}: 해당 람다식을 만족시키는 요소 개수 리턴
 
--   13. [문자열함수](https://rain2002kr.tistory.com/92)
+            list.count{
+                it>=1
+            } //1일상인 요소
+
+-   26. [문자열함수](https://rain2002kr.tistory.com/92)
     -   a) str.split(delim): 
         -   delim 기준으로 List< String > 으로 리턴
     -   b)  strList.joinToString("x") 

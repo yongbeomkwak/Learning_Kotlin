@@ -16,7 +16,7 @@
     
     문자열 리스트(not String)
     1.joinToString("구분자"): 해당 구분자를 사이사이 넣어 배열을 하나의 문자열로 합침,구분자 없을 시 그냥 합침
-
+    
 */
 fun main(args: Array<String>) {
 
