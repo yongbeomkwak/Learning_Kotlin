@@ -130,7 +130,7 @@
     -   [각종 유용한 메소드 정리](https://aonee.tistory.com/28)
     -   [람다함수](https://0391kjy.tistory.com/38)
 
-24. Extra(그 외)
+24. Extra Keyword(그 외)
 -  a) until : a until b -> a 부터 b-1까지
     
     
@@ -141,7 +141,7 @@
         
         typealias P=Pair<Int,Int>
 
-25.  람다함수
+25.  람다함수 및 많이쓰이는 Method
 
 -   1. withIndex():(Index,value)를 갖는 List 형태로 리턴
 -   2. xx.groubBy{key} : key값을 key로하고 xx를 value로 갖는 LinkedHashMap 리턴
@@ -189,3 +189,16 @@
             startIndex: Int, 
             endIndex: Int
             ): String
+
+-   13. [문자열함수](https://rain2002kr.tistory.com/92)
+    -   a) str.split(delim): 
+        -   delim 기준으로 List< String > 으로 리턴
+    -   b)  strList.joinToString("x") 
+        -   해당 strList 뒤에 x를 붙여 하나의 문자열로 만듬(마지막 원소에는 안붙힘)
+                
+                strList=["1","2","3"]
+                strList.joinToString("-")
+                strList="1-2-3"
+    -   c) str.replace("a","b"): a를 b로 대체하기
+    -   d) str.substring(0..1): start..end: stat인덱스부터 end인덱스(포함) 자르기
+                   
