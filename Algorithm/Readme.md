@@ -68,7 +68,7 @@ selector을 지정하면 소팅 기준을 정할 수 있다.
 
 ##  0.  import
     import java.util.*
-
+- LinkedList< T >() 를 사용한다
 ##  1.  추가
 -   add(element: E)
 
