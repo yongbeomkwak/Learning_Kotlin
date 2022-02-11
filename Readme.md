@@ -6,6 +6,10 @@
 2.  TypeCasting&Array
 
     타입 변환 과 배열 선언 및 사용 방법
+    
+    arr.get(index):해당 인덱스 값 얻기
+    arr.set(index,value):해당 인덱스에 값 넣기
+    arr.size:크기 받기
 ---
 3. TypeInference&Function
 
