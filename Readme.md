@@ -206,6 +206,9 @@
                 val strings = listOf("abc", "de", "de")
                 strings.flatMap { it.toList() }.toSet()
                 [a, b, c, d, e] //중복제거 O
+-   15. sum(),sumBy{it}
+    -   list.sum():list의 요소들 합 
+    -   list.sumBy{it.second}: 해당 list요소 중 it로 접근하여 해당 요소만 합하여 리턴
 
 -   26. [문자열함수](https://rain2002kr.tistory.com/92)
     -   a) str.split(delim): 
