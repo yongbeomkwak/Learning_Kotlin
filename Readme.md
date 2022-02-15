@@ -2,6 +2,9 @@
 1.  Value&Type
   
      변수 및 타입 정의 방법
+     a to b: a와 b를 Pair로 묶음
+     
+     .toTypedArray(): 배열 타입 상관없이 해당 타입에 맞은 배열로 리턴
 ---
 2.  TypeCasting&Array
 
@@ -58,7 +61,8 @@
     lambda.kt:람다 함수 설명
 ---
 11.  [ScopeFunction](https://haero.tistory.com/21)
-
+     
+     ![Scope](scope.png)
      역할:apply,also || run,let,with
 
      구조:apply,run ||   also,let || with
