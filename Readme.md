@@ -225,4 +225,6 @@
                 strList="1-2-3"
     -   c) str.replace("a","b"): a를 b로 대체하기
     -   d) str.substring(0..1): start..end: stat인덱스부터 end인덱스(포함) 자르기
+    -   e) str.indexOf(String a):앞에서 부터 a문자가 최초 발견된 인덱스 리턴 못 찾을 시 -1
+    -   f) str.lastIndexOf(String b):뒤에서 부터 b문자가 최초 발견된 리턴 못 찾을 시 -1
                    
