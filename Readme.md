@@ -91,9 +91,15 @@
     e)CollectionFunction2:심화 과정 
     
 ---
-1.  String
+15.  String
 
     문자열 관련 함수 
+
+    c.isUpperCase():char 대문자 확인
+    c.isLowerCase():char 소문자 확인
+    str.toUpperCase():문자열 대문자로 변경
+    str.toLowerCase():문자열 소문자로 변경
+    
 ---
 16. NullCheck
     
