@@ -10,5 +10,3 @@
 
             tailrec fun 함수명(parms..):Type  ...
 
--   게임 맵 최단거리
-    -   0-1 BFS 이용
