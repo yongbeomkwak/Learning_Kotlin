@@ -233,4 +233,12 @@
     -   d) str.substring(0..1): start..end: stat인덱스부터 end인덱스(포함) 자르기
     -   e) str.indexOf(String a):앞에서 부터 a문자가 최초 발견된 인덱스 리턴 못 찾을 시 -1
     -   f) str.lastIndexOf(String b):뒤에서 부터 b문자가 최초 발견된 리턴 못 찾을 시 -1
-                   
+    -   g) strList.joinToString(구분자, 시작, 종료) 
+
+            var arr_data = arrayOf("하나", "둘", "셋")
+            
+            arr_data.joinToString(":", "{", "}")
+            
+            출력값 {하나:둘:셋}
+    -   h) str.capitalize()
+        -   해당 문자열 앞 대문자로 변환  다른 곳 대문자를 소문자로 바꾸지는 않음
