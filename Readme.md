@@ -5,6 +5,9 @@
      a to b: a와 b를 Pair로 묶음
      
      .toTypedArray(): 배열 타입 상관없이 해당 타입에 맞은 배열로 리턴
+
+     TYPE.MIN_VALUE: Byte~Double의 최솟값
+     TYPE.MAX_VALUE: Byte~Double의 최댓값
 ---
 2.  TypeCasting&Array
 
