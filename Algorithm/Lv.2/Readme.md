@@ -10,3 +10,12 @@
 
             tailrec fun 함수명(parms..):Type  ...
 
+-   2개 이하로 다른 비트
+    -   다양한 비트연산
+    - a and b : and 연산
+    - a or c :or 연산
+    - a.inv():반전
+    - 2의보수: 반전 후 +1
+      - a.inv()+1
+    - a shr n :a를 n만큼 오른쪽 (>>)
+    - a shl n :a를 n만큼 왼쪽 (<<)
