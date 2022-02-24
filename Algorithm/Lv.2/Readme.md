@@ -19,3 +19,7 @@
       - a.inv()+1
     - a shr n :a를 n만큼 오른쪽 (>>)
     - a shl n :a를 n만큼 왼쪽 (<<)
+
+-   삼각 달팽이
+    -  IntArray에서 += 연산자를 통해 추가하는 것보디
+    -  ArrayList에서 add를 통해 더한 후 .toIntArray()가 더 빠름
