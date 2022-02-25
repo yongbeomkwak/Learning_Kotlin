@@ -102,9 +102,10 @@
     c.isLowerCase():char 소문자 확인
     str.toUpperCase():문자열 대문자로 변경
     str.toLowerCase():문자열 소문자로 변경
+    str.replace("1", ""): 문자열 1-> ""빈칸으로 즉 없앰
     
 ---
-16. NullCheck
+1.  NullCheck
     
     nullCheck.kt:보통 Scope 함수를 와 같이 사용하여 null Check를 함
     Equal.kt:객체와 내용의 동일성 판단
