@@ -4,3 +4,4 @@ class Solution {
         return n.toString(3).reversed().toInt(3)
     }
 }
+
